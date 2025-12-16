@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 16, 2025 at 08:32 AM
+-- Generation Time: Dec 16, 2025 at 08:56 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -121,7 +121,7 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`u_id`, `roll_no`, `name`, `dept_id`, `hostel_block`, `room_number`, `mobile_no`, `email`, `password`, `role`) VALUES
 (1, 'ADMIN001', 'Site Admin', 1, 'A', '101', '9999999999', 'admin@example.com', '$2b$10$s/8jIKCYAqfBuZ2O/USsSeAcypVJ49r/KHxZSvbs/uxvwv11sheiW', 'admin'),
-(3, '123211003022', 'Aakash', 1, 'A', '109', '987654321', 'stu@aiims.edu.in', '$2b$10$6ZsM6ztpTUzLSrgi8e1ehOjHtJLG/kQTfiENTX9795PuRwIjAXP0e', 'student');
+(3, '3022', 'Anupam', 1, 'A', '109', '987654321', 'stu@aiims.edu.in', '$2b$10$6ZsM6ztpTUzLSrgi8e1ehOjHtJLG/kQTfiENTX9795PuRwIjAXP0e', 'student');
 
 --
 -- Indexes for dumped tables
