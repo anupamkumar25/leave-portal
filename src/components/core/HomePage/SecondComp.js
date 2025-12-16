@@ -42,15 +42,15 @@ const faqs = [
     answer:
       "yes, but the document need to be submitted at office",
   },
+  // {
+  //   question: "where can i get the application form?",
+  //   answer:
+  //     "Application form will be generated once you enter all the details.",
+  // },
   {
-    question: "where can i get the application form?",
+    question: "Do i need to take prinout of the form?",
     answer:
-      "Applicatio form will be generated once you enter all the details.",
-  },
-  {
-    question: "Do i need to take prinOut of the form?",
-    answer:
-      "Yes tak printOut and submit to the office.",
+      "Just submit the application on portal and visit office for approval.",
   },
   {
     question: "How will i know the update about my application?",
@@ -160,12 +160,12 @@ export default function SecondComp() {
               <figure>
                 <blockquote className="mt-6 text-lg font-semibold text-white sm:text-xl/8">
                   <p>
-                    “The Leave Management Portal has completely transformed the way we handle student leave requests. What once required long queues and paperwork can now be done in just a few clicks. As a student, I can easily apply for leave, track my application status, and even receive instant updates via email.”
+                    “The Leave Management Portal has completely transformed the way we handle employee leave requests. What once required long queues and paperwork can now be done in just a few clicks. We can easily apply for leave, track my application status, and even receive instant updates via email.”
                   </p>
                 </blockquote>
                 <figcaption className="mt-6 text-base text-white">
-                  <div className="font-semibold">Ritika Sharma</div>
-                  <div className="mt-1">B.Tech 3rd Year, Department of Computer Science</div>
+                  {/* <div className="font-semibold">Ritika Sharma</div>
+                  <div className="mt-1">B.Tech 3rd Year, Department of Computer Science</div> */}
                 </figcaption>
               </figure>
             </div>

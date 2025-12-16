@@ -13,7 +13,7 @@ const FirstComp = () => {
                     <h1 className='text-5xl font-bold text-gray-500'>To Manage Your Leaves</h1>
                     </div>
                     <div className='ml-10 mt-4'>
-                    <h1 className='text-2xl'>Welcome to the Leaves Management Portal of RGIPT</h1>
+                    <h1 className='text-2xl'>Welcome to the Leaves Management Portal of AIIMS Deoghar</h1>
                     {/* <h1 className='text-2xl'></h1> */}
                     </div>
                 </div>
